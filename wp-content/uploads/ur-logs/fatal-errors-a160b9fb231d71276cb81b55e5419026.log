@@ -1,0 +1,46 @@
+2024-12-05T22:10:57+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\qcld-wpwbot.php:3364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): qc_wpbotfree_activation_redirect('icon-block/icon...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(732): do_action('activated_plugi...', 'icon-block/icon...', false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-plugins-controller.php(755): activate_plugin('icon-block/icon...', '', false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-plugins-controller.php(371): WP_REST_Plugins_Controller->handle_plugin_status('icon-block/icon...', 'active', 'inactive')
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Plugins_Controller->create_item(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/plugins', Array, NULL)
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/plugins')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#15 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\qcld-wpwbot.php on line 3364
+
+2024-12-05T22:11:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\qcld-wpwbot.php:3364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(326): qc_wpbotfree_activation_redirect('icon-list-block...')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(732): do_action('activated_plugi...', 'icon-list-block...', false)
+#4 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-plugins-controller.php(755): activate_plugin('icon-list-block...', '', false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-plugins-controller.php(371): WP_REST_Plugins_Controller->handle_plugin_status('icon-list-block...', 'active', 'inactive')
+#6 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1230): WP_REST_Plugins_Controller->create_item(Object(WP_REST_Request))
+#7 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/plugins', Array, NULL)
+#8 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#9 C:\xampp\htdocs\wordpress\wp-includes\rest-api.php(428): WP_REST_Server->serve_request('/wp/v2/plugins')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#11 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#14 C:\xampp\htdocs\wordpress\wp-includes\class-wp.php(813): WP->parse_request('')
+#15 C:\xampp\htdocs\wordpress\wp-includes\functions.php(1336): WP->main('')
+#16 C:\xampp\htdocs\wordpress\wp-blog-header.php(16): wp()
+#17 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\chatbot\qcld-wpwbot.php on line 3364
+
